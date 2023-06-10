@@ -22,11 +22,11 @@ class jugadores {
 class Clase {
   constructor(jugador, tecnico, club) {
     this.jugador = jugador;
-    this.tecnico = this.tecnico;
+    this.tecnico = tecnico;
     this.club = club;
   }
   mostrarClase() {
-    console.log(`Curso: ${this.club}`);
+    console.log(`club: ${this.club}`);
     console.log(`${this.jugador.nombre} ${this.jugador.apellido}`);
     console.log(`${this.tecnico.nombre} ${this.tecnico.apellido}`);
   }

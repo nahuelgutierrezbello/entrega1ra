@@ -26,15 +26,15 @@
             ></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="juga.html"
-              >juga con nosotros &nbsp;<i class="fa fa-home"></i
+            <a class="nav-link" href="colabora.html"
+              >colabora para proximas creaciones &nbsp;<i class="fa fa-home"></i
             ></a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href=""
-              >Soporte & Ayuda&nbsp;<i class="fa fa-hands-helping"></i
+              >Soporte & Ayuda;<i class="fa fa-hands-helping"></i
             ></a>
           </li>
         </ul>
@@ -44,7 +44,6 @@
       <div class="row" id="app">
         <div class="col-12 text-center">
           <h1 class="text-success">Expulsado Game</h1>
-          <h3 class="displayed-word">Word: <br />{{displayWord()}}</h3>
           <p class="h4 text-danger"></p>
           <br />
           <img class="img-fluid" :src="imagePath()" alt="" />
@@ -55,9 +54,7 @@
             @click="attemptWithLetter(letter.letter)"
             v-for="letter in letters"
             class="btn btn-success m-1 btn-lg"
-          >
-            {{letter.letter}}
-          </button>
+          ></button>
         </div>
       </div>
     </main>
