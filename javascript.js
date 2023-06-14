@@ -19,3 +19,22 @@ while (opcion !== "salir") {
   }
 }
 alert("Fin del programa");
+
+function printNumbersAndSum() {
+  var i = 1;
+  var sum = 0;
+  while (i <= 10) {
+    console.log(i);
+    sum += i;
+    i++;
+  }
+  console.log("The sum is " + sum);
+}
+
+printNumbersAndSum();
+
+const array = [1, 2, 3, 4, 5];
+
+for (var i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
